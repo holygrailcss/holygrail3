@@ -1,12 +1,12 @@
 
 /*
   Paquete: holygrail3
-  Versión: 0.0.6
+  Versión: 0.0.8
 */
 
 /*
   Paquete: holygrail3
-  Versión: 0.0.6
+  Versión: 0.0.8
 */
 :root {
   --c-primary: #000, --c-black: #000, --c-dark-grey: #333333,
@@ -157,28 +157,8 @@ button {
   padding-block: 0;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .container-full {
   padding-right: 8px;
   padding-left: 8px;
@@ -1029,52 +1009,7 @@ button {
   }
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-.ar-3-4 {
-  aspect-ratio: 3/4;
-}
-
-.ar-3-2 {
-  aspect-ratio: 3/2;
-}
-
-.ar-16-9 {
-  aspect-ratio: 16/9;
-}
-
-.ar-9-16 {
-  aspect-ratio: 9/16;
-}
-
-.ar-1-1 {
-  aspect-ratio: 1/1;
-}
-
-.ar-20-9 {
-  aspect-ratio: 20/9;
-}
-
-/* prettier-ignore */
-/* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 body {
   font-family: arial, sans-serif;
   font-weight: 500;
@@ -1631,17 +1566,7 @@ mark {
   font-weight: 900;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .margin-auto {
   margin: 0 auto;
 }
@@ -3088,17 +3013,7 @@ mark {
   }
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 :root {
   --c-primary: #000;
 }
@@ -3291,17 +3206,7 @@ mark {
   color: var(--c-alert, #ff4444);
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 input:is([type=button], [type=submit], [type=reset]),
 input[type=file]::file-selector-button,
 button {
@@ -3317,8 +3222,6 @@ button {
   text-align: center;
   box-sizing: border-box;
   font-size: 12px;
-  vertical-align: middle;
-  justify-content: center;
   border: none;
   white-space: nowrap;
   cursor: pointer;
@@ -3644,17 +3547,7 @@ button {
   opacity: 0.6;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .checkbox-item {
   text-align: center;
   position: relative;
@@ -4276,17 +4169,7 @@ button {
   border: 1px solid #000;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .form {
   width: 100%;
 }
@@ -5125,17 +5008,7 @@ input::input-placeholder {
   font-size: 10px;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 ul.list-disc {
   list-style: none;
   margin: 16px 0;
@@ -5205,17 +5078,7 @@ ul.list-clear li::after {
   display: none;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .tabs ul {
   display: flex;
   margin: 0;
@@ -5376,17 +5239,7 @@ ul.list-clear li::after {
   background: #000;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 @keyframes opendrawer {
   from {
     transform: translateX(100%);
@@ -5509,17 +5362,7 @@ body.open-drawer .drawer-overlay {
   pointer-events: auto;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .is-rtl .fl-left {
   float: right;
 }

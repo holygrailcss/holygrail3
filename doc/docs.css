@@ -139,17 +139,7 @@ button {
   padding-block: 0;
 }
 
-/* prettier-ignore */
 /* functional */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
-/* prettier-ignore */
 .var-a-break-xs::after {
   display: inline-block;
   content: "break-xs";
