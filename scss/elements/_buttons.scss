@@ -154,8 +154,8 @@ button {
   &:active,
   &.active {
     color: $c-white;
-    background-color: $c-dark-grey;
-    border: 1px solid $c-dark-grey;
+    background-color: $c-accent-dark;
+    border: 1px solid $c-accent-dark;
     opacity: 1;
     cursor: pointer;
   }
@@ -202,8 +202,8 @@ button {
     &:active,
     &.active {
       color: $c-white;
-      background-color: $c-dark-grey;
-      border: 1px solid $c-dark-grey;
+      background-color: $c-accent-dark;
+      border: 1px solid $c-accent-dark;
       opacity: 1;
       svg {
         g {
@@ -324,6 +324,7 @@ button {
   background-color: transparent;
   border: 0 solid transparent;
   height: auto;
+  text-decoration: underline;
   svg {
     g {
       fill: $c-primary;

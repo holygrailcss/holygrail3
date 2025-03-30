@@ -25,40 +25,26 @@
     a,
     span,
     .tab {
+      overflow: hidden;
+      border-radius: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
       vertical-align: top;
       cursor: pointer;
-      padding-inline: 20px;
+      padding: 8px 16px;
       line-height: 1;
-    }
-    .btn-tertiary {
-      padding-block: 0;
+      border: 1px solid #000000;
     }
 
-    &.is-active {
+    &.is-active .tab,
+    &.is-active span,
+    &.is-active a {
       position: relative;
+      background-color: $c-accent;
+      color: #ffffff;
 
-      &::after {
-        content: '';
-        position: absolute;
-        width: 4px;
-        height: 4px;
-        background-color: #000;
-        bottom: -8px;
-        left: 50%;
-        margin-left: -2px;
-      }
-    }
-  }
-
-  &.tabs-resetfirst ul li:first-child * {
-    padding: 0 20px 0 0;
-  }
-  &.tabs-resetfirst ul li {
-    &::after {
-      margin-left: -10px;
+      border: 1px solid $c-accent;
     }
   }
 

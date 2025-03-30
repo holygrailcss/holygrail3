@@ -1,0 +1,58 @@
+@use 'sass:math';
+@import '../abstract/_all';
+.accordion {
+  border-top: 1px solid $c-middle-grey;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.accordion-header {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+  padding: 16px 0;
+  position: relative;
+  text-align: left;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+.accordion-header:hover {
+  background: #e0e0e0;
+}
+.accordion-item {
+  border-bottom: 1px solid $c-middle-grey;
+}
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.accordion-content p {
+  margin: 0 0 16px 0;
+}
+.list-time-wrap {
+  border-top: 1px solid $c-middle-grey;
+}
+.list-time {
+  border-bottom: 1px solid $c-middle-grey;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  .list-time-content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .list-time-hour {
+      max-width: 200px;
+    }
+  }
+}
+
+.list-link {
+  border-bottom: 1px solid $c-middle-grey;
+}
+
+.list-link:first-child {
+  border-top: 1px solid $c-middle-grey;
+}
